@@ -75,6 +75,24 @@
    (shape (circ I14 76200 0 0))
    (shape (circ BOT 76200 0 0))
   )
+  (padstack PS8
+   (shape (circ TOP 254000 0 0))
+   (shape (circ I1 254000 0 0))
+   (shape (circ I2 254000 0 0))
+   (shape (circ I3 254000 0 0))
+   (shape (circ I4 254000 0 0))
+   (shape (circ I5 254000 0 0))
+   (shape (circ I6 254000 0 0))
+   (shape (circ I7 254000 0 0))
+   (shape (circ I8 254000 0 0))
+   (shape (circ I9 254000 0 0))
+   (shape (circ I10 254000 0 0))
+   (shape (circ I11 254000 0 0))
+   (shape (circ I12 254000 0 0))
+   (shape (circ I13 254000 0 0))
+   (shape (circ I14 254000 0 0))
+   (shape (circ BOT 254000 0 0))
+  )
   )
   (network_out
    (Net #00000 
@@ -1968,6 +1986,22 @@
      -1524000 -3873500 -1524000 -3683000 -1778000 -3683000)
     (connect (terminal pin LED10-0) (terminal pin R23-1))
    )
+   )
+   (Net {NC-1} 
+   (via PS8 -9017000 2540000 (net {NC-1} )
+    (type protect))
+   )
+   (Net {NC-2} 
+   (via PS8 3937000 2540000 (net {NC-2} )
+    (type protect))
+   )
+   (Net {NC-3} 
+   (via PS8 4064000 -8890000 (net {NC-3} )
+    (type protect))
+   )
+   (Net {NC-4} 
+   (via PS8 -9017000 -8763000 (net {NC-4} )
+    (type protect))
    )
   )
  )

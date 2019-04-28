@@ -1,4 +1,4 @@
-# Writing all output to: D:\pe_lab\pcb_file\control.log
+# Writing all output to: D:\pe_lab\pcb_file\pcb_project_mybook\control.log
 set pad_wire_necking on
 bus diagonal
 fanout 5
@@ -8,5 +8,3 @@ route 50 16
 clean 2
 filter 5
 recorner diagonal
-status_file
-

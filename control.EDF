@@ -36,6 +36,7 @@
    $VIA_POWER
    $VIA_SIGNAL
    (spare
+    PS8
    )
   )
   (rule
@@ -1182,6 +1183,24 @@
    (shape (circle I13 2.03200 0 0))
    (shape (circle I14 2.03200 0 0))
    (shape (circle BOT 2.03200 0 0))
+  )
+  (padstack PS8 (absolute on)
+   (shape (circle TOP 2.54000 0 0))
+   (shape (circle I1 2.54000 0 0))
+   (shape (circle I2 2.54000 0 0))
+   (shape (circle I3 2.54000 0 0))
+   (shape (circle I4 2.54000 0 0))
+   (shape (circle I5 2.54000 0 0))
+   (shape (circle I6 2.54000 0 0))
+   (shape (circle I7 2.54000 0 0))
+   (shape (circle I8 2.54000 0 0))
+   (shape (circle I9 2.54000 0 0))
+   (shape (circle I10 2.54000 0 0))
+   (shape (circle I11 2.54000 0 0))
+   (shape (circle I12 2.54000 0 0))
+   (shape (circle I13 2.54000 0 0))
+   (shape (circle I14 2.54000 0 0))
+   (shape (circle BOT 2.54000 0 0))
   )
   (padstack $VIA_POWER (absolute on)
    (shape (circle TOP 0.76200 0 0))
@@ -2343,5 +2362,9 @@
   )
  )
  (wiring
+  (via PS8 -90.17000 25.40000 (net {NC-1}) (type protect))
+  (via PS8 39.37000 25.40000 (net {NC-2}) (type protect))
+  (via PS8 40.64000 -88.90000 (net {NC-3}) (type protect))
+  (via PS8 -90.17000 -87.63000 (net {NC-4}) (type protect))
  )
 )
